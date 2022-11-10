@@ -1,5 +1,5 @@
-pip install --upgrade streamlit
-pip install --upgrade pip
+#pip install --upgrade streamlit
+#pip install --upgrade pip
 
 import streamlit
 
