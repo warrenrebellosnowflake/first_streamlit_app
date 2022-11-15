@@ -29,7 +29,7 @@ import requests
 fruityvice_response = requests.get("https://www.fruityvice.com/api/fruit/watermelon")
 streamlit.text(fruityvice_response)
 
-#streamlit.header("Fruityvice Fruit Advice!!!")
+streamlit.header("Fruityvice Fruit Advice!!!")
 streamlit.text(fruityvice_response.json())
 
 fruitvice_normalized = pd.json_normalize(fruityvice_response.json())
